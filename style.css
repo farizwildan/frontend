@@ -32,3 +32,7 @@ body {
   opacity: 0.5; /* Sesuaikan dengan tingkat transparansi yang Anda inginkan; 0 = sepenuhnya transparan, 1 = tidak transparan */
 }
 /* Anda dapat menambahkan gaya tambahan untuk elemen lain di halaman Anda di sini */
+.img-logo {
+  width: 75px; /* Sesuaikan lebar yang Anda inginkan */
+  height: auto; /* Tinggi diatur secara otomatis untuk menjaga proporsi gambar */
+}
