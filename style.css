@@ -1,9 +1,8 @@
 .banner {
-  background: url("img/test.jpg") no-repeat center center;
-  background-size: cover;
   padding-top: 20%;
-  padding-bottom: 150px;
-  color: white;
+  padding-bottom: 305px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
 h1 {
   font-family: sans-serif;
@@ -21,12 +20,17 @@ dd {
 
 /* style.css */
 
-body {
+.body1 {
   background-image: url("img/bg.jpg"); /* Ganti 'gambar-latar-belakang.jpg' dengan path atau URL gambar Anda */
   background-size: cover; /* Menyesuaikan ukuran gambar dengan lebar dan tinggi elemen body */
   background-repeat: no-repeat; /* Menghindari pengulangan gambar */
   background-attachment: fixed; /* Membuat gambar tetap di tempatnya saat menggulir */
-  background-color: rgba(0, 0, 0, 0); /* Nilai terakhir (0.5) menentukan tingkat transparansi; 1 = tidak transparan, 0 = sepenuhnya transparan */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0
+  ); /* Nilai terakhir (0.5) menentukan tingkat transparansi; 1 = tidak transparan, 0 = sepenuhnya transparan */
 }
 .transparent-bg {
   opacity: 0.5; /* Sesuaikan dengan tingkat transparansi yang Anda inginkan; 0 = sepenuhnya transparan, 1 = tidak transparan */
