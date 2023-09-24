@@ -26,6 +26,9 @@ dd {
 }
 
 /* style.css */
+.page1 {
+  background-image: url();
+}
 .page.page1 {
   /* Menentukan gambar latar belakang */
   background-image: url("img/bg.jpg"); /* Ganti dengan path gambar Anda */
