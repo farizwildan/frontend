@@ -1,9 +1,9 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Signika+Negative:wght@300;400;700&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Signika+Negative:wght@300;400;700&display=swap");
 
 :root {
   --lg-font: "Inter", sans-serif;
   --sm-font: "Signika Negative", sans-serif;
-}
+} */
 
 .banner {
   padding-top: 20%;
@@ -26,14 +26,18 @@ dd {
 }
 
 /* style.css */
+.page.page1 {
+  /* Menentukan gambar latar belakang */
+  background-image: url("img/bg.jpg"); /* Ganti dengan path gambar Anda */
 
-.page1 {
-  background-image: url("img/bg.jpg"); /* Ganti 'gambar-latar-belakang.jpg' dengan path atau URL gambar Anda */
-  background-size: cover; /* Menyesuaikan ukuran gambar dengan lebar dan tinggi elemen body */
+  /* Menentukan gaya latar belakang */
+  background-size: cover; /* Mengisi seluruh area dengan gambar */
   background-repeat: no-repeat; /* Menghindari pengulangan gambar */
-  background-attachment: fixed; /* Membuat gambar tetap di tempatnya saat menggulir */
-  background-color: rgba(0, 0, 0, 0); /* Nilai terakhir (0.5) menentukan tingkat transparansi; 1 = tidak transparan, 0 = sepenuhnya transparan */
+  background-attachment: fixed; /* Membuat gambar tetap di latar belakang saat menggulir halaman */
+  background-position: center center; /* Posisi gambar di tengah latar belakang */
+  height: 100vh; /* Mengisi tinggi viewport */
 }
+
 .transparent-bg {
   opacity: 0.5; /* Sesuaikan dengan tingkat transparansi yang Anda inginkan; 0 = sepenuhnya transparan, 1 = tidak transparan */
 }
