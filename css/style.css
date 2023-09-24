@@ -1,3 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&family=Signika+Negative:wght@300;400;700&display=swap");
+
+:root {
+  --lg-font: "Inter", sans-serif;
+  --sm-font: "Signika Negative", sans-serif;
+}
+
 .banner {
   background: url("img/test.jpg") no-repeat center center;
   background-size: cover;
@@ -41,6 +48,7 @@ dd {
   max-height: 200px; /* Adjust the height as needed */
   max-width: 100px;
   object-fit: cover; /* This property scales the image while maintaining its aspect ratio */
+  border-radius: 5px;
 }
 
 .white-container {

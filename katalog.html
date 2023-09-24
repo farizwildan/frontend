@@ -4,9 +4,12 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Perpustakaan SMAN 1 Tunjungan</title>
-    <link rel="stylesheet" href="style.css" />
+    <!-- bootsrap css and js -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
       <!-- navbar -->
@@ -50,40 +53,90 @@
       </section>
       <!-- end navbar -->
 
+      <!-- header -->
+      <section id="header">
+        <div id="carouselExample" class="carousel slide" height="50">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/1920x540.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/1920x540.png" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+              <img src="img/1920x540.png" class="d-block w-100" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+      
+      <!-- end header -->
+
       <!-- katalog -->
         <section id="katalog">
           <div class="container mt-5">
+            <div class = "title text-center">
+              <h2 class = "position-relative d-inline-block">New Collection</h2>
+          </div>
+
+
             <div class="row g-3">
-              <div class="col-6 col-md-6 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-2">
                 <div class="card h-90">
-                  <img src="img/logo.png" class="card-img-top mt-3 mx-auto" alt="..." />
+                  <img src="img/130x190.png" class="card-img-top mt-3 mx-auto" alt="..."/>
                   <div class="card-body text-center">
                     <h6 class="card-title">Card title</h6>
                     <button class="btn btn-dark">Detail</button>
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-md-6 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-2">
                 <div class="card h-90">
-                  <img src="img/logo.png" class="card-img-top mt-3 mx-auto" alt="..." />
+                  <img src="img/130x190.png" class="card-img-top mt-3 mx-auto" alt="..." />
                   <div class="card-body text-center">
                     <h6 class="card-title">Card title</h6>
                     <button class="btn btn-dark">Detail</button>
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-md-6 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-2">
                 <div class="card h-90">
-                  <img src="img/logo.png" class="card-img-top mt-3 mx-auto" alt="..." />
+                  <img src="img/130x190.png" class="card-img-top mt-3 mx-auto" alt="..." />
                   <div class="card-body text-center">
                     <h6 class="card-title">Card title</h6>
                     <button class="btn btn-dark">Detail</button>
                   </div>
                 </div>
               </div>
-              <div class="col-6 col-md-6 col-lg-3">
+              <div class="col-6 col-md-4 col-lg-2">
                 <div class="card h-90">
-                  <img src="img/logo.png" class="card-img-top mt-3 mx-auto" alt="..." />
+                  <img src="img/130x190.png" class="card-img-top mt-3 mx-auto" alt="..." />
+                  <div class="card-body text-center">
+                    <h6 class="card-title">Card title</h6>
+                    <button class="btn btn-dark">Detail</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="card h-90">
+                  <img src="img/130x190.png" class="card-img-top mt-3 mx-auto" alt="..." />
+                  <div class="card-body text-center">
+                    <h6 class="card-title">Card title</h6>
+                    <button class="btn btn-dark">Detail</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-6 col-md-4 col-lg-2">
+                <div class="card h-90">
+                  <img src="img/130x190.png" class="card-img-top mt-3 mx-auto" alt="..." />
                   <div class="card-body text-center">
                     <h6 class="card-title">Card title</h6>
                     <button class="btn btn-dark">Detail</button>
@@ -95,7 +148,9 @@
         </section>
       </div>
     <!-- end katalog -->
-
+    <!-- jquery -->
+    <script src="js/code.jquery.com_jquery-3.7.1.js"></script>
+    <!-- boostrap js and popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
