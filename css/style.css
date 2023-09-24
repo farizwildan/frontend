@@ -20,7 +20,6 @@ dd {
 
 /* style.css */
 
-.body1 {
 .page1 {
   background-image: url("img/bg.jpg"); /* Ganti 'gambar-latar-belakang.jpg' dengan path atau URL gambar Anda */
   background-size: cover; /* Menyesuaikan ukuran gambar dengan lebar dan tinggi elemen body */
@@ -40,15 +39,4 @@ dd {
 .img-logo {
   width: 75px; /* Sesuaikan lebar yang Anda inginkan */
   height: auto; /* Tinggi diatur secara otomatis untuk menjaga proporsi gambar */
-}
-
-.card-img-top {
-  max-height: 200px; /* Adjust the height as needed */
-  max-width: 100px;
-  object-fit: cover; /* This property scales the image while maintaining its aspect ratio */
-}
-
-.white-container {
-  background-color: white;
-  /* You can also add more styles here if needed */
 }

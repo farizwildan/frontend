@@ -1,0 +1,29 @@
+.img-logo {
+  width: 75px; /* Sesuaikan lebar yang Anda inginkan */
+  height: auto; /* Tinggi diatur secara otomatis untuk menjaga proporsi gambar */
+}
+
+.card-img-top {
+  max-height: 200px; /* Adjust the height as needed */
+  max-width: 100px;
+  object-fit: cover; /* This property scales the image while maintaining its aspect ratio */
+}
+
+.white-container {
+  background-color: white;
+  /* You can also add more styles here if needed */
+}
+
+.list-grup {
+  margin-top: 100px;
+}
+
+.container1 {
+  width: 110%;
+}
+
+.img1 {
+  max-height: 340px;
+  width: 100%;
+  object-fit: cover;
+}
